@@ -1,0 +1,53 @@
+# Build output (Maven / Gradle / Java)
+target/
+build/
+.gradle/
+out/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE settings
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+.apt_generated/
+.sts4-cache/
+.springBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+application-local.yml
+application-local.yaml
+application-local.properties
+application-secret.yml
+application-secret.yaml
+application-secret.properties
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Logs and JVM crash reports
+*.log
+logs/
+hs_err_pid*
+replay_pid*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
