@@ -30,4 +30,9 @@ public class RedisChatController {
                 .call()
                 .content();
     }
+
+    @DeleteMapping("/{conversationId}")
+    public void clearHistory(@PathVariable String conversationId) {
+        chatMemory.clear(conversationId);
+    }
 }
